@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AutoUpdate</string>
+    <string name="update_download_failed">更新下载失败!</string>
+    <string name="update_download_failed_msg">网络出现问题了</string>
+    <string name="update_download_start">开始下载更新</string>
+    <string name="update_download_processing">更新下载进行中</string>
+    <string name="update_download_finish">更新下载完成</string>
+    <string name="btn_update">更新</string>
+
+</resources>
