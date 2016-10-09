@@ -14,10 +14,8 @@
   UpdateManager.java       
   //负责处理文件的下载和线程间通信       
   UpdateDownloadRequest.java    
-  
   //事件的监听回调    
   UpdateDownloadListener.java   
-  
   //Activity   
   MainActivity.java   
   
