@@ -8,18 +8,16 @@
     <!--网络权限-->
     <uses-permission android:name="android.permission.INTERNET"/>
 # 概览
-  //App更新下载后台服务
-  UpdateService.java
+  //App更新下载后台服务   
+  UpdateService.java   
+  //下载调度管理器，调用我们的UpdateDownloadRequest    
+  UpdateManager.java       
+  //负责处理文件的下载和线程间通信       
+  UpdateDownloadRequest.java    
   
-  //下载调度管理器，调用我们的UpdateDownloadRequest
-  UpdateManager.java
+  //事件的监听回调    
+  UpdateDownloadListener.java   
   
-  //负责处理文件的下载和线程间通信
-  UpdateDownloadRequest.java
-  
-  //事件的监听回调
-  UpdateDownloadListener.java
-  
-  //Activity
-  MainActivity.java
+  //Activity   
+  MainActivity.java   
   
